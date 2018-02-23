@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="As a webdeveloper and a graduate student in UC Davis, Iris Zheng is trying her best to explore a web world with her passion and desire for beauty and creativity">
+  <meta name="keywords" content="web developer ui/ux designer Iris Zheng">
+  <meta name="author" content="Iris Zheng">
+  <meta name="Robots" content="all">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="reset.css">
+  <!-- <link rel="stylesheet" href="styles-list.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="styles-smartDandelion.css">
+
+
+
+  <title>Iris Zheng Portfolio Page</title>
+</head>
+
+<body>
+  <div id="wrap">
+    <div id="main">
+      <div id="page0">
+        <div id="me1" class="menu" onmouseleave="menuFade1()">
+          <!-- <svg id="iris-logo1"width="100" height="40" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"> -->
+          <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+          <!-- <g>
+    <title>Layer 1</title>
+    <text stroke="white" transform="matrix(1.5814853412463215,0,0,1.5814853412463215,-276.0972166016397,-77.08220632152204) " xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_3" y="71.41077" x="193.2566" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="white">I</text>
+    <line stroke="white" fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="35.67601" y1="3.12095" x2="35.67601" y2="34.22066" id="svg_7"/>
+    <line stroke="white" fill="none" stroke-width="2" stroke-linejoin="null" stroke-linecap="null" x1="34.66356" y1="34.84682" x2="123.34937" y2="34.84682" id="svg_9"/>
+    <text stroke="white" transform="matrix(1.0156406505381994,0,0,1.0156406505381994,-122.77919933459174,-29.77814100189136) " xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_5" y="58.36775" x="176.86759" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="white">RIS</text>
+    <line stroke="white" class="line1" id="svg_6" y2="2.65326" x2="20.71656" y1="2.65326" x1="36.69681" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" fill="none"/>
+   </g>
+  </svg> -->
+          <ul id="menu-list1" class="menu-list">
+            <li><a href="index.html">Home Page</a></li>
+            <li>Interactive Installation
+              <ul>
+                <li><a href="smartDandelion.html">Smart Dandelion</a></li>
+                <li><a href="greenBelt.html">Green Belt</a></li>
+                <li><a href="magicMirror.html">Magic Mirror</a></li>
+              </ul>
+            </li>
+            <li>Recreational Games
+              <ul>
+                <li><a href="Snakegame/index.html" target="_blank">SnakeGame</a></li>
+                <li><a href="2048/index.html" target="_blank">2048 Game</a></li>
+              </ul>
+            </li>
+            <li>Interface & Websites
+              <ul>
+                <li>Websie1</li>
+                <li>Websie2</li>
+                <li>Websie3</li>
+              </ul>
+            </li>
+            <li>Seek for more
+              <ul>
+                <li>Experience</li>
+                <li>Contact Her</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="item1 page-bar"><i id="menuicon1" class="menu-icon fa fa-bars" onclick="showMenu1()"></i>
+        </div>
+        <div class="container">
+          <div class="dotList">
+            <span class="dot" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+          </div>
+          <div class="titleSection content0" id="gb0">
+            <div class="description">
+              <h1>Smart Dandelion :</h1>
+              <h2>Smart mobile flight installations provide shelter to citizens</h2></div>
+            <div class="imageGallery">
+              <img src="images/sd-0.png" alt="beijingcity birdview">
+            </div>
+          </div>
+          <div class="content1" id="gb1">
+            <div class="description">
+              <h3>Lackness of Infrastructure in Crowded Chinese Cities</h3>
+
+              <p class="dipiction">With the rapid development of urbanization, citizens complained that it is hard to find a comfortable place to relax in the crowded streets,because of the variety of population and the city’s fascinating expansion speed.
+              </p>
+            </div>
+            <div class="imageGallery">
+              <img src="images/sd-1.png" alt="beijingcity birdview">
+            </div>
+          </div>
+          <div class="content2" id="gb2">
+            <div class="description">
+              <h3> Concept </h3>
+
+              <p class="dipiction">By using specific breeding strategies, some plants are able to respond quickly to the changes in environment, as well as the rapid changes in ecosystems. We hope that, by imitating specific physiological properties of plants, we can design
+                a kind of urban infrastructure device to provide people with decent and flexible service, so that the urban space can be effectively utilized.</p>
+            </div>
+            <div class="imageGallery">
+              <img src="images/sd-2.png" alt="case study">
+            </div>
+          </div>
+          <div class="content3" id="gb3">
+            <div class="description">
+              <h3> Strategy </h3>
+
+              <p class="dipiction">These devices will drift above the city as dandelions, and follow citizens’ demands as the plant follow the direction of wind. Then they will take root into the city, breed and migrate. At the same time, these devices can adjust to the sun
+                and users flexibly, providing people with more appropriate services.
+
+              </p>
+            </div>
+            <div class="imageGallery">
+              <img src="images/sd-3.png" alt="case study">
+            </div>
+          </div>
+          <div class="content4" id="gb4">
+            <div class="description">
+              <h3> Bionic Strategy </h3>
+
+              <p class="dipiction">
+                Mimic plants organ's bionic principles on installation to realize smart reaction to the change of the environment and efficient function to generate energy.
+              </p>
+            </div>
+            <div class="imageGallery">
+              <img src="images/sd-4.png" alt="case study">
+            </div>
+          </div>
+          <div class="content5" id="gb5">
+            <div class="description">
+              <h3> Adaptability </h3>
+
+              <p class="dipiction">
+                Smart dandelion devices make flexible adjustments to the change of light environment and users’ needs. On one hand, by the bionic imitation of plant’s phototropism, the solar panel of the smart dandelion can follow the sun flexibly, providing people with
+                better sunshade and improve the utilization rate of solar energy.
+              </p>
+            </div>
+
+            <div class="imageGallery">
+              <img src="images/sd-6.png" alt="case study">
+            </div>
+          </div>
+          <div class="content6" id="gb6">
+            <div class="description">
+              <h3> Flexibility </h3>
+              <p class="dipiction">
+                On the other hand, by adjusting the seats, panels, and organizing mode, smart dandelions can meet the needs of various types of activities of all types of people.
+
+              </p>
+            </div>
+            <div class="imageGallery">
+              <img src="images/sd-5.png" alt="case study">
+            </div>
+          </div>
+          <div class="content7" id="gb7">
+            <div class="description">
+              <h3> Dispersal and Potential
+ </h3>
+            </div>
+            <div class="imageGallery">
+              <img src="images/sd-7.png" alt="case study">
+            </div>
+          </div>
+          <div class="content8" id="gb8">
+            <div class="description">
+              <h3> </h3>
+
+            </div>
+            <div class="imageGallery">
+              <img src="images/sd-8.png" alt="case study">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <script src="smartDandelion.js"></script>
+</body>
+
+</html>
