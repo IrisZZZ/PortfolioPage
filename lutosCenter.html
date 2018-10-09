@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="As a webdeveloper and a graduate student in UC Davis, Iris Zheng is trying her best to explore a web world with her passion and desire for beauty and creativity">
+  <meta name="keywords" content="web developer ui/ux designer Iris Zheng">
+  <meta name="author" content="Iris Zheng">
+  <meta name="Robots" content="all">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="reset.css">
+  <!-- <link rel="stylesheet" href="styles-list.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="styles-greenBelt.css">
+
+
+
+  <title>Iris Zheng Portfolio Page</title>
+</head>
+
+<body>
+  <div id="wrap">
+    <div id="main">
+      <div id="page0">
+        <div id="me1" class="menu" onmouseleave="menuFade1()">
+          <!-- <svg id="iris-logo1"width="100" height="40" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"> -->
+          <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+          <!-- <g>
+    <title>Layer 1</title>
+    <text stroke="white" transform="matrix(1.5814853412463215,0,0,1.5814853412463215,-276.0972166016397,-77.08220632152204) " xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_3" y="71.41077" x="193.2566" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="white">I</text>
+    <line stroke="white" fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="35.67601" y1="3.12095" x2="35.67601" y2="34.22066" id="svg_7"/>
+    <line stroke="white" fill="none" stroke-width="2" stroke-linejoin="null" stroke-linecap="null" x1="34.66356" y1="34.84682" x2="123.34937" y2="34.84682" id="svg_9"/>
+    <text stroke="white" transform="matrix(1.0156406505381994,0,0,1.0156406505381994,-122.77919933459174,-29.77814100189136) " xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_5" y="58.36775" x="176.86759" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="white">RIS</text>
+    <line stroke="white" class="line1" id="svg_6" y2="2.65326" x2="20.71656" y1="2.65326" x1="36.69681" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" fill="none"/>
+   </g>
+  </svg> -->
+          <ul id="menu-list1" class="menu-list">
+            <li><a href="index.html">Home Page</a></li>
+            <li>Interactive Installation
+              <ul>
+                <li><a href="smartDandelion.html">Smart Dandelion</a></li>
+                <li><a href="greenBelt.html">Green Belt</a></li>
+                <li><a href="magicMirror.html">Magic Mirror</a></li>
+              </ul>
+            </li>
+            <li>Recreational Games
+              <ul>
+                <li><a href="Snakegame/index.html" target="_blank">SnakeGame</a></li>
+                <li><a href="2048/index.html" target="_blank">2048 Game</a></li>
+              </ul>
+            </li>
+            <li>Interface & Websites
+              <ul>
+                <li>Websie1</li>
+                <li>Websie2</li>
+                <li>Websie3</li>
+              </ul>
+            </li>
+            <li>Seek for more
+              <ul>
+                <li>Experience</li>
+                <li>Contact Her</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="item1 page-bar"><i id="menuicon1" class="menu-icon fa fa-bars" onclick="showMenu1()"></i>
+        </div>
+        <div class="container">
+          <div class="dotList">
+            <span class="dot" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+          </div>
+          <div class="titleSection content0" id="gb0">
+            <div class="description">
+              <h1>The Green Belt :</h1>
+              <h2>Redefine Beijing Marathon Route to inject  vitality into the city</h2></div>
+            <div class="imageGallery">
+              <img src="images/gb-0.png" alt="beijingcity birdview">
+            </div>
+          </div>
+          <div class="content1" id="gb1">
+            <div class="description">
+              <h3> Waste of Gray Space</h3>
+              <h3>VS&nbsp; &nbsp;Lackness of Public Space</h3>
+              <p class="dipiction">Several years after the 2008 Beijing Olympic Games, many Olympics’ constructions have faded away from the public’s view, including a 45 km-long Olympic marathon run route, which starts from the center of Beijing and has a potential to radiate
+                more than 3 million people. However, the rapid expansion of the city leads the space along the track to be more crowded and fragmentary resulting the local residents to be increasingly unsatisfied.</p>
+            </div>
+            <div class="imageGallery">
+              <img src="images/greenbelt-1.jpg" alt="beijingcity birdview">
+            </div>
+          </div>
+          <div class="content2" id="gb2">
+            <div class="description">
+              <h3> Sites study and Strategy </h3>
+
+              <p class="dipiction">There are numerous fragmentary gray spaces along the runway. In the design, we will firstly filter the suitable spaces, organize their functions and use the route to connect them. Then we will design a micro-garden for each space according
+                to their functions. Finally, we hope to build up a big database to manage the micro-gardens and change more gray spaces</p>
+            </div>
+            <div class="imageGallery">
+              <img src="images/gb-2.png" alt="case study">
+            </div>
+          </div>
+          <div class="content3" id="gb3">
+            <div class="description">
+              <h3> Strategy </h3>
+
+              <p class="dipiction">The project focusing on redesign the route and nearby space. By using the route to organize the piecemeal space and build up street microgardens to meet the needs of the surrounding population, the design will bring more possibilities to
+                the city by activating the sleeping marathon route and city’s gray spaces.
+              </p>
+            </div>
+            <div class="imageGallery">
+              <img src="images/gb-3.png" alt="case study">
+            </div>
+          </div>
+          <div class="content4" id="gb4">
+            <div class="description">
+              <h3> Plan </h3>
+
+              <p class="dipiction">We selected some suitable gray spaces to reform alongside the route. Meanwhile, we divide the route into four parts: Hutong (a kind of ancient Beijing buildings) Area, Business Area, Residential Area and Campus City Area. Each part is arranged
+                with specific functions, which is based on the population analysis and personal need surveys
+              </p>
+            </div>
+            <div class="imageGallery">
+              <img src="images/gb-4.png" alt="case study">
+            </div>
+          </div>
+          <div class="content5" id="gb5">
+
+            <div class="imageGallery">
+              <img src="images/gb-5.png" alt="case study">
+            </div>
+          </div>
+          <div class="content6" id="gb6">
+            <div class="description">
+              <h3> Micro-gardens Design </h3>
+              <p class="dipiction">
+                <strong>Micro-gardens in Hutong Area: </strong>create comfortable spaces for the residents to do gardening, chess playing, and communication to rejuvenate the old Hutong community.</p>
+              <p class="dipiction"><strong>Micro-gardens in Business Area:</strong> ensure the nearby people can take a rest or start a discussion .</p>
+              <p class="dipiction"><strong>Micro-gardens in Residential Area:</strong> In the daytime, micro-gardens can be set up to transform the originally idle spaces into active spaces, allowing children playing games and their parents chatting with each other.</p>
+              <p class="dipiction"><strong>Micro-gardens in Campus City Area: </strong>The micro-gardens in the campus city are set to combine with bicycle parking spaces to form comfortable campus outdoor space
+              </p>
+            </div>
+            <div class="imageGallery">
+              <img src="images/gb-6.png" alt="case study">
+            </div>
+          </div>
+          <div class="content7" id="gb7">
+            <div class="description">
+              <h3> Management </h3>
+              <p class="dipiction">We try to establish a dynamic management system to ensure that our microgarden system can develop and consummate itself ceaselessly. In the system, with the help of app, users can use the micro-gardens and bring up their opinion conveniently
+                to improve the devices</p>
+            </div>
+            <div class="imageGallery">
+              <img src="images/gb-7.png" alt="case study">
+            </div>
+          </div>
+          <div class="content8" id="gb8">
+            <div class="description">
+              <h3> Smart Phone Application </h3>
+              <p class="dipiction">App provides users with a variety of functions such as screening, reservation, navigation, search, feedback and so on. As more and more people use app to book and search micro gardens, a app based information platform will be built up gradually.
+                The public can participate in the construction and renovation of microgardens through the app, so as to ensure the sustainability and development of micro-gardens.</p>
+            </div>
+            <div class="imageGallery">
+              <img src="images/gb-8.png" alt="case study">
+            </div>
+          </div>
+          <div class="content9" id="gb9">
+            <h3> Smart Phone Application </h3>
+            <div class="imageGallery">
+              <img src="images/gb-9.png" alt="case study">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <script src="greenBelt.js"></script>
+</body>
+
+</html>
